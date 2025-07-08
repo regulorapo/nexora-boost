@@ -4,7 +4,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -16,5 +16,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
